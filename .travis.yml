@@ -2,4 +2,4 @@ language:
   node_js
 
 script:
-  node_modules/.bin/cypress
+  node_modules/.bin/cypress open
