@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 6
+cache:
+  directories:
+    - ~/.npm
+    - node_modules
+install:
+  - npm install
+script:
+  - $(npm bin)/cypress run --record --key 5b1c24a6-3705-4c43-b620-387fa6c6cc93
