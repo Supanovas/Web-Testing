@@ -1,0 +1,15 @@
+{
+  "name": "cypress",
+  "productName": "Cypress",
+  "description": "Cypress.io end to end testing tool",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "test": "Scrap_work"
+
+
+
+  },
+  "env": "production"
+}
