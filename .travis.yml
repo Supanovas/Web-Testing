@@ -9,5 +9,5 @@ cache:
  # - npm install
 script:
 
-run 'sample_spec.js'
+
  
