@@ -5,7 +5,7 @@ cache:
   directories:
     - ~/.npm
     - node_modules
-install:
+#install:
  # - npm install
 script:
  - $(npm bin)/cypress run --record --key 29398af2-7ed1-4590-8d39-c6046e153b51
