@@ -5,11 +5,8 @@ cache:
   directories:
     - ~/.npm
     - node_modules
-#install:
- # - npm install
-
-"scripts": {
-    "cy:run": "cypress run",
-    "test": "sample_spec"
-
+install:
+  - npm install
+script:
+  - $(npm bin)/cypress run --record --key
  
