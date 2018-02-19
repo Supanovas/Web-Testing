@@ -12,7 +12,7 @@ install:
    - npm start -- --silent &
   
 script:
- # - $(npm bin)/cypress run --record --key
+ - $(npm bin)/cypress run --record --key
   
   - run cypress:run
   - cypress run --record
